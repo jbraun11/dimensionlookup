@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="dimensionlookup/DimensionCache_old.java|dimensionlookup/DimensionLookupCacheMap.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/kettle-core-6.0.0.0-353.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/kettle-dbdialog-6.0.0.0-353.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/kettle-engine-6.0.0.0-353.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/kettle-ui-swt-6.0.0.0-353.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/metastore-6.0.0.0-353.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/libswt/linux/x86_64/swt.jar"/>
+	<classpathentry kind="lib" path="/opt/pentaho/6.0/pdi/data-integration/lib/h2-1.2.131.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/inquidia/Downloads/h2-1.4.190-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

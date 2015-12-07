@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+
+   id="DimensionLookup"
+   iconfile="DIM.png"
+   description="Dimension lookup/update"
+   tooltip="Provides performance enhancements to Dim Lookup/Update step"
+   category="Data Warehouse"
+   classname="dimensionlookup.DimensionLookupMeta">
+		
+		<libraries>
+    		<library name="dimensionlookup.jar"/>
+		</libraries>
+	<localized_category>
+     <category locale="en_US">Data Warehouse</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Dimension lookup/update</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This is a custom dimension lookup/update step.</tooltip>
+   </localized_tooltip>
+		
+</plugin>
